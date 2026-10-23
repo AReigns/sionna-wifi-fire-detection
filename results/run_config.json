@@ -1,0 +1,100 @@
+{
+  "SEED": 42,
+  "FREQUENCIES": {
+    "2.4 GHz": 2400000000.0,
+    "5G (3.55 GHz)": 3550000000.0
+  },
+  "setups": {
+    "0.4 m (above desks, monitors and chairs)": [
+      [
+        2.0749999475479126,
+        -5.8999996089935305,
+        0.4
+      ],
+      [
+        -2.0300004482269287,
+        5.715046405792236,
+        0.4
+      ]
+    ],
+    "1.0 m (rack-top / wall-mounted)": [
+      [
+        2.0749999475479126,
+        -5.8999996089935305,
+        1.0
+      ],
+      [
+        -2.0300004482269287,
+        5.715046405792236,
+        1.0
+      ]
+    ]
+  },
+  "primary_fire": {
+    "x": 0.019997596740722656,
+    "y": -0.0849757194519043,
+    "zf": 0.0,
+    "ceiling": 3.0299999713897705,
+    "frac": 0.5,
+    "off_los": 0.00014031076422934036
+  },
+  "TX_POWER_DBM": 20.0,
+  "NOISE_FLOOR_DBM": -94.98970004336019,
+  "N_CONTROLS": 16,
+  "CONTROL_JITTER_M": 0.15,
+  "CALIB_MARGIN": 1.5,
+  "EARLY_WINDOW_NS": 10.0,
+  "FIRE": {
+    "relative_permittivity": 1.0,
+    "conductivity": 0.05,
+    "scattering_coefficient": 0.0
+  },
+  "SMOKE": {
+    "relative_permittivity": 1.001,
+    "conductivity": 0.0001,
+    "scattering_coefficient": 0.05
+  },
+  "STAGES": {
+    "small": {
+      "fire": [
+        0.25,
+        0.6
+      ],
+      "smoke": [
+        0.5,
+        0.8
+      ]
+    },
+    "medium": {
+      "fire": [
+        0.45,
+        1.2
+      ],
+      "smoke": [
+        0.9,
+        1.5
+      ]
+    },
+    "large": {
+      "fire": [
+        0.7,
+        2.0
+      ],
+      "smoke": [
+        1.4,
+        2.2
+      ]
+    }
+  },
+  "PATH_KW": {
+    "max_depth": 5,
+    "los": true,
+    "specular_reflection": true,
+    "diffuse_reflection": true,
+    "refraction": true,
+    "diffraction": true,
+    "samples_per_src": 200000,
+    "seed": 42
+  },
+  "sionna_rt": "2.1.0"
+}

@@ -1,0 +1,25 @@
+setup,frequency,condition,stage,drop_early_db,thr_early_db,drop_direct_db,thr_direct_db,drop_total_db,thr_total_db,d_ds_ns,thr_ds_ns,detected,detected_by
+"0.4 m (above desks, monitors and chairs)",2.4 GHz,fire,small,2.731456756591797,1.0,12.43289566040039,1.0,2.6764717,1.0,0.44229936599731445,1.5603325366973877,True,"early, direct, total"
+"0.4 m (above desks, monitors and chairs)",2.4 GHz,fire,medium,2.934783935546875,1.0,14.909671783447266,1.0,2.8968048,1.0,0.2614297866821289,1.5603325366973877,True,"early, direct, total"
+"0.4 m (above desks, monitors and chairs)",2.4 GHz,fire,large,3.1201210021972656,1.0,14.909679412841797,1.0,3.1076088,1.0,-0.05304574966430664,1.5603325366973877,True,"early, direct, total"
+"0.4 m (above desks, monitors and chairs)",2.4 GHz,fire_smoke,small,2.7323760986328125,1.0,12.432903289794922,1.0,2.6780205,1.0,0.44229936599731445,1.5603325366973877,True,"early, direct, total"
+"0.4 m (above desks, monitors and chairs)",2.4 GHz,fire_smoke,medium,2.9811058044433594,1.0,14.909679412841797,1.0,2.9423714,1.0,0.27774810791015625,1.5603325366973877,True,"early, direct, total"
+"0.4 m (above desks, monitors and chairs)",2.4 GHz,fire_smoke,large,3.2237701416015625,1.0,14.909679412841797,1.0,3.22443,1.0,-0.11553382873535156,1.5603325366973877,True,"early, direct, total"
+"0.4 m (above desks, monitors and chairs)",5G (3.55 GHz),fire,small,2.7414016723632812,1.0,14.68658447265625,1.0,2.697754,1.0,0.6438255310058594,1.0,True,"early, direct, total"
+"0.4 m (above desks, monitors and chairs)",5G (3.55 GHz),fire,medium,3.36602783203125,1.0,17.890174865722656,1.0,3.3251724,1.0,0.565436840057373,1.0,True,"early, direct, total"
+"0.4 m (above desks, monitors and chairs)",5G (3.55 GHz),fire,large,3.771820068359375,1.0,17.890174865722656,1.0,3.7385483,1.0,0.49237632751464844,1.0,True,"early, direct, total"
+"0.4 m (above desks, monitors and chairs)",5G (3.55 GHz),fire_smoke,small,2.7485198974609375,1.0,14.686592102050781,1.0,2.7048378,1.0,0.6453638076782227,1.0,True,"early, direct, total"
+"0.4 m (above desks, monitors and chairs)",5G (3.55 GHz),fire_smoke,medium,3.397918701171875,1.0,17.890174865722656,1.0,3.359314,1.0,0.5774068832397461,1.0,True,"early, direct, total"
+"0.4 m (above desks, monitors and chairs)",5G (3.55 GHz),fire_smoke,large,3.815399169921875,1.0,17.890174865722656,1.0,3.8019905,1.0,0.33144402503967285,1.0,True,"early, direct, total"
+1.0 m (rack-top / wall-mounted),2.4 GHz,fire,small,0.35739898681640625,1.0,0.0,1.0,0.36152267,1.0,-0.048885345458984375,1.5746655464172363,False,-
+1.0 m (rack-top / wall-mounted),2.4 GHz,fire,medium,2.7634963989257812,1.0,12.43289566040039,1.0,2.7527847,1.0,0.06393909454345703,1.5746655464172363,True,"early, direct, total"
+1.0 m (rack-top / wall-mounted),2.4 GHz,fire,large,1.0366592407226562,1.0,0.0,1.0,1.115715,1.0,-0.9933795928955078,1.5746655464172363,True,"early, total"
+1.0 m (rack-top / wall-mounted),2.4 GHz,fire_smoke,small,0.5231361389160156,1.0,0.15975570678710938,1.0,0.5429039,1.0,-0.20490503311157227,1.5746655464172363,False,-
+1.0 m (rack-top / wall-mounted),2.4 GHz,fire_smoke,medium,2.781169891357422,1.0,12.43289566040039,1.0,2.7773361,1.0,-0.010838985443115234,1.5746655464172363,True,"early, direct, total"
+1.0 m (rack-top / wall-mounted),2.4 GHz,fire_smoke,large,1.3023452758789062,1.0,0.0,1.0,1.4007607,1.0,-1.2265422344207764,1.5746655464172363,True,"early, total"
+1.0 m (rack-top / wall-mounted),5G (3.55 GHz),fire,small,0.2623443603515625,1.0,0.0,1.0,0.26615524,1.0,-0.02911996841430664,1.042791724205017,False,-
+1.0 m (rack-top / wall-mounted),5G (3.55 GHz),fire,medium,2.915332794189453,1.0,14.68658447265625,1.0,2.897026,1.0,0.3022429943084717,1.042791724205017,True,"early, direct, total"
+1.0 m (rack-top / wall-mounted),5G (3.55 GHz),fire,large,1.1504058837890625,1.0,0.0,1.0,1.1962776,1.0,-0.7446253299713135,1.042791724205017,True,"early, total"
+1.0 m (rack-top / wall-mounted),5G (3.55 GHz),fire_smoke,small,0.4067802429199219,1.0,0.15778350830078125,1.0,0.42722702,1.0,-0.1896953582763672,1.042791724205017,False,-
+1.0 m (rack-top / wall-mounted),5G (3.55 GHz),fire_smoke,medium,2.9299850463867188,1.0,14.68658447265625,1.0,2.913353,1.0,0.3056061267852783,1.042791724205017,True,"early, direct, total"
+1.0 m (rack-top / wall-mounted),5G (3.55 GHz),fire_smoke,large,1.4703826904296875,1.0,0.0,1.0,1.5404282,1.0,-1.0748589038848877,1.042791724205017,True,"early, total, ds"
